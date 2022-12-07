@@ -4,11 +4,11 @@ using namespace std;
 
 class Event
 {
-public:
-
     int day, month, year;
     int hour, minutes;
     string name;
+
+    public:
 
     void load();
     void show();
