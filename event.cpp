@@ -5,6 +5,17 @@ using namespace std;
 
 void Event::load()
 {
-
+    cout<<endl<<"Nazwa wydarzenia: ";
+    cin>>name;
+    cout<<endl<<"Dzien: ";
+    cin>>day;
+    cout<<endl<<"Miesiac: ";
+    cin>>month;
+    cout<<endl<<"Rok: ";
+    cin>>year;
+    cout<<endl<<"Godzina: ";
+    cin>>hour;
+    cout<<endl<<"Minut: ";
+    cin>>minutes;
 }
 
