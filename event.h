@@ -11,6 +11,7 @@ class Event
 public:
 
     Event(string,int,int,int,int,int);
+    ~Event();
     void load();
     void show();
 };
