@@ -34,4 +34,10 @@ Event::Event(string n,int d,int m,int y,int h,int mins)
     minutes=mins;
 }
 
+Event::~Event()
+{
+    cout<<endl<<"To ja, destruktor sie nazywam";
+    cout<<" kasuje obiekty, slowa przepraszam nie uzywam";
+}
+
 
