@@ -3,3 +3,8 @@
 
 using namespace std;
 
+void Event::load()
+{
+
+}
+
