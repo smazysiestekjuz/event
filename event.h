@@ -8,8 +8,9 @@ class Event
     int hour, minutes;
     string name;
 
-    public:
+public:
 
+    Event(string,int,int,int,int,int);
     void load();
     void show();
 };
