@@ -19,3 +19,8 @@ void Event::load()
     cin>>minutes;
 }
 
+void Event::show()
+{
+    cout<<endl<<name<<" "<<day<<"."<<month<<"."<<year<<" "<<hour<<":"<<minutes<<endl;
+}
+
